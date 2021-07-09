@@ -1,0 +1,139 @@
+/* body section */
+body{
+  text-align: center;
+}
+
+/* title section */
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+#title .row{
+  text-align: left;
+}
+.download{
+  margin:5% 3% 5% 0%;
+}
+.title-image{
+  width: 20%;
+  margin-left:50px;
+  transform: rotate(25deg);
+  position: absolute;
+}
+@media (max-width:764px) {
+  #title .row{
+    text-align: center;
+  }
+  .title-image{
+    width: 80%;
+    margin-left:0px;
+    transform: rotate(0deg);
+    position:static;
+  }
+}
+
+/* navbar section */
+.navbar-brand{
+  font-family: 'ubuntu',sans-serif;
+  font-size: 2.5rem;
+}
+.navbar{
+  padding:0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'montserrat-thin',sans-serif;
+}
+
+/* features section */
+#features{
+  background-color: #fff;
+  padding: 7% 15%;
+  position: relative;
+}
+.icon-features{
+  color: #ef8172;
+}
+.icon-features:hover{
+  color: #ff4c68;
+}
+
+/* heading and paragraph section */
+h1{
+  font-family: 'montserrat',sans-serif;
+  font-weight: 3.5rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  padding-top:5px;
+}
+h3{
+  font-family: 'montserrat';
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+p{
+  color: grey;
+}
+
+/* testimonial section */
+#testimonials{
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-logo{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* press section */
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+#pricing{
+  padding: 100px;
+}
+.pricing-col{
+  margin: 3% 0%;
+}
+
+/* cta section */
+#cta-download{
+  background-color: #ff4c68;
+}
+
+/* footer section */
+#footer{
+  background-color: #fff;
+  color: grey;
+  padding: 5% 10% 1%;
+}
+.h3-footer{
+  color: #fff;
+  font-family: 'montserrat',sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 5% 15% 0%;
+}
+.footer-fab{
+  padding: 1%;
+}
